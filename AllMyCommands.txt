@@ -2,3 +2,22 @@ git init
 git add 'first file.txt'
 git add 'second file.txt'
 git add 'third file.txt'
+git rm --cached 'second file.txt'
+git add 'second file.txt'
+git config --global user.email "peter.m.agayby@gmail.com"
+git commit -m "Adding the first three files after writing the sections from the book"
+git remote add origin https://github.com/Agayby/Sprint0indv.git
+git pull origin master --allow-unrelated-histories
+git push origin master
+touch 'README.md
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m 'Adding the Read me file'
+git push origin ReadMe
+git checkout master
+git merge ReadMe
+git push origin master
+git add AllMyCommands.txt 
+git commit -m 'adding the commands file'
+git push origin master
